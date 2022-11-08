@@ -19,5 +19,9 @@
   "homepage": "https://gitlab.com/janjo1/clean-api-nodee#readme",
   "devDependencies": {
     "git-commit-msg-linter": "^4.2.1"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.8.4"
   }
 }
