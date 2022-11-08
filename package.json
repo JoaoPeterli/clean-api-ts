@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://gitlab.com/janjo1/clean-api-nodee/issues"
   },
-  "homepage": "https://gitlab.com/janjo1/clean-api-nodee#readme"
+  "homepage": "https://gitlab.com/janjo1/clean-api-nodee#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.2.1"
+  }
 }
