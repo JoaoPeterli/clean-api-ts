@@ -18,10 +18,16 @@
   },
   "homepage": "https://gitlab.com/janjo1/clean-api-nodee#readme",
   "devDependencies": {
-    "git-commit-msg-linter": "^4.2.1"
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "eslint": "^8.27.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "git-commit-msg-linter": "^4.2.1",
+    "typescript": "^4.8.4"
   },
   "dependencies": {
-    "@types/node": "^18.11.9",
-    "typescript": "^4.8.4"
+    "@types/node": "^18.11.9"
   }
 }
