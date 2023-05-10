@@ -1,7 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/space-before-blocks */
-/* eslint-disable @typescript-eslint/strict-boolean-expressions */
-/* eslint-disable @typescript-eslint/quotes */
 import { HttpResponse, HttpRequest, EmailValidator, Controller, AddAccount } from "./signup-protocols"
 import { MissingParamError, ServerError, InvalidParamError } from "../../errors"
 import { badRequest, serverError, ok } from "../../helpers/http-helper"
