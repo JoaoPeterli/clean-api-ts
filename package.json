@@ -23,6 +23,7 @@
   },
   "homepage": "https://gitlab.com/janjo1/clean-api-nodee#readme",
   "devDependencies": {
+    "@shelf/jest-mongodb": "^4.1.7",
     "@types/bcrypt": "^5.0.0",
     "@types/jest": "^29.2.2",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
@@ -42,6 +43,7 @@
   "dependencies": {
     "@types/node": "^18.11.9",
     "bcrypt": "^5.1.0",
+    "mongodb": "4.0",
     "validator": "^13.9.0"
   }
 }
