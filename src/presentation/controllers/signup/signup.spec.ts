@@ -147,7 +147,7 @@ describe('SignUp Controller', () => {
     }
     const httResponse = await sut.handle(httpRequest)    
     expect(httResponse.statusCode).toBe(500)
-    expect(httResponse.body).toEqual(new ServerError() )
+    expect(httResponse.body).toEqual(new ServerError('teste'))
   })
  
   test('Should return 500 if AddAccount throws', async () => {
@@ -165,7 +165,7 @@ describe('SignUp Controller', () => {
     }
     const httResponse = await sut.handle(httpRequest)    
     expect(httResponse.statusCode).toBe(500)
-    expect(httResponse.body).toEqual(new ServerError() )
+    expect(httResponse.body).toEqual(new ServerError('teste') )
   }) 
 
   test('Should call EmailValidator with correct email', () => {

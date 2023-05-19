@@ -36,7 +36,7 @@ export class SignUpController {
     }
       catch (error) {
         console.error(error)
-       return  serverError()
+       return  serverError(error)
     }  
   }
 }
