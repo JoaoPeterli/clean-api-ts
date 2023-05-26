@@ -9,6 +9,7 @@ export class ValidationComposite implements Validation {
 
   validate(input: any): Error {
       for (const validation of this.validations) {
+      console.log(JSON.stringify(validation, undefined, 4))
         const error = validation.validate(input)
         if (error) {
           return error
