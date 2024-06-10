@@ -19,3 +19,4 @@ export const MongoHelper = {
   return Object.assign( {}, collection, {id: idResult.insertedId.toString()})
   }
 }
+//git
